@@ -1,25 +1,22 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=EMPTY-JING&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20BUILDER%20%7C%20PYTHON%20%7C%20AUTOMATION&descAlignY=58&descSize=16" alt="Empty-Jing — AI Builder, Python, Automation" />
-
-<a href="https://github.com/Empty-Jing">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=760&lines=%24+whoami;%3E+AI+Builder+%2F+Python+Developer;%3E+Building+tools+that+remove+repetitive+work;%3E+Turning+ideas+into+working+software" alt="Terminal typing introduction" />
-</a>
+<img width="100%" src="./assets/header.svg" alt="Empty-Jing system profile" />
 
 </div>
 
 <br />
 
 ```text
-empty@github:~$ profile --summary
+┌─[ empty-jing@github ]─[ ~/profile ]
+└──╼ $ systemctl status builder.service
 
-focus       AI applications · developer tools · workflow automation
-language    Python · Shell · Java · C
-principle   Build useful things. Keep the interface simple.
-status      Exploring, shipping, improving.
+● builder.service — AI applications and developer tooling
+     Loaded: active
+     Stack:  Python / Shell / Java / C
+     Mode:   exploring → building → shipping
 ```
 
-## SELECTED WORK
+## `[ 02 / SELECTED_WORK ]`
 
 <table>
   <tr>
@@ -44,13 +41,13 @@ status      Exploring, shipping, improving.
   </tr>
 </table>
 
-## TOOLBOX
+## `[ 03 / TOOLBOX ]`
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,java,c,bash,linux,git,github,vscode&theme=dark&perline=8" alt="Python, Java, C, Bash, Linux, Git, GitHub and VS Code" />
 </div>
 
-## ACTIVITY
+## `[ 04 / TELEMETRY ]`
 
 <div align="center">
   <picture>
@@ -87,4 +84,6 @@ status      Exploring, shipping, improving.
   </picture>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" alt="" />
+<div align="center">
+  <code>END_OF_TRANSMISSION // KEEP_BUILDING</code>
+</div>
