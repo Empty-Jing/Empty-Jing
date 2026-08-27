@@ -1,32 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Empty Jing</title>
-  <desc id="desc">A simple introduction to Empty Jing, a developer building useful software.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">Welcome to Empty Jing's GitHub profile</title>
+  <desc id="desc">A colorful retro web welcome banner.</desc>
 
-  <rect width="1200" height="360" rx="18" fill="#f2efe7"/>
+  <defs>
+    <pattern id="stars" width="72" height="54" patternUnits="userSpaceOnUse">
+      <rect width="72" height="54" fill="#05004f"/>
+      <rect x="9" y="10" width="3" height="3" fill="#fff"/>
+      <rect x="43" y="31" width="2" height="2" fill="#00ffff"/>
+      <rect x="64" y="7" width="2" height="2" fill="#ff69d4"/>
+      <rect x="25" y="46" width="2" height="2" fill="#fff36a"/>
+    </pattern>
+  </defs>
 
-  <g fill="none" stroke="#1f2321" stroke-width="2">
-    <path d="M54 52h1092" opacity=".14"/>
-    <path d="M54 306h1092" opacity=".14"/>
+  <rect width="1200" height="220" fill="url(#stars)"/>
+  <rect x="8" y="8" width="1184" height="204" fill="none" stroke="#00ffff" stroke-width="4"/>
+  <rect x="16" y="16" width="1168" height="188" fill="none" stroke="#ff48c4" stroke-width="2" stroke-dasharray="12 8"/>
+
+  <g font-family="monospace" font-weight="700" text-anchor="middle">
+    <text x="606" y="88" font-size="64" fill="#ff48c4">WELCOME TO</text>
+    <text x="600" y="82" font-size="64" fill="#fff36a">WELCOME TO</text>
+    <text x="606" y="158" font-size="48" fill="#00ffff">EMPTY JING'S GITHUB</text>
+    <text x="600" y="152" font-size="48" fill="#ffffff">EMPTY JING'S GITHUB</text>
   </g>
 
-  <g font-family="Arial, Helvetica, sans-serif" fill="#1f2321">
-    <text x="54" y="38" font-size="13" font-weight="700" letter-spacing="2.6">EMPTY — JING</text>
-    <text x="1040" y="38" font-size="13" text-anchor="end" letter-spacing="1.2" opacity=".62">GITHUB PROFILE</text>
-
-    <text x="54" y="139" font-family="serif" font-size="60" font-weight="700">Building useful things,</text>
-    <text x="54" y="209" font-family="serif" font-size="60" font-weight="700">one small idea at a time.</text>
-
-    <text x="58" y="270" font-size="17" letter-spacing=".3" opacity=".68">Python · systems · automation</text>
-    <text x="1146" y="330" font-size="13" text-anchor="end" letter-spacing="1.4" opacity=".58">EMPTY-JING / 2026</text>
+  <g fill="#fff36a">
+    <path d="M83 83h8v-8h6v8h8v6h-8v8h-6v-8h-8z"/>
+    <path d="M1095 122h8v-8h6v8h8v6h-8v8h-6v-8h-8z"/>
+    <animate attributeName="opacity" values="1;.25;1" dur="1.2s" repeatCount="indefinite"/>
   </g>
-
-  <g transform="translate(986 102)">
-    <rect width="160" height="160" rx="4" fill="#28685d"/>
-    <circle cx="29" cy="29" r="6" fill="#f2efe7"/>
-    <path d="M27 130C54 99 83 125 101 90c10-20 19-34 34-44" fill="none" stroke="#f2efe7" stroke-width="3" stroke-linecap="round"/>
-    <text x="25" y="77" fill="#f2efe7" font-family="serif" font-size="44" font-weight="700">EJ</text>
+  <g fill="#00ffff">
+    <path d="M155 154h6v-6h4v6h6v4h-6v6h-4v-6h-6z"/>
+    <path d="M1032 64h6v-6h4v6h6v4h-6v6h-4v-6h-6z"/>
   </g>
-
-  <circle cx="54" cy="330" r="5" fill="#d66a4a"/>
-  <path d="M69 330h138" stroke="#d66a4a" stroke-width="2"/>
 </svg>

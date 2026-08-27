@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="70" viewBox="0 0 1000 70" role="img" aria-labelledby="title">
+  <title id="title">Thanks for visiting my profile</title>
+  <rect width="1000" height="70" fill="#05004f"/>
+  <rect x="3" y="3" width="994" height="64" fill="none" stroke="#00ffff" stroke-width="3"/>
+  <text x="500" y="44" text-anchor="middle" fill="#ff48c4" font-family="monospace" font-size="25" font-weight="700">THANKS FOR VISITING - SEE YOU NEXT TIME!</text>
+</svg>
