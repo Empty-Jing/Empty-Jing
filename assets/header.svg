@@ -1,35 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
-  <title id="title">Welcome to Empty Jing's GitHub profile</title>
-  <desc id="desc">A colorful retro web welcome banner.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Welcome to my GitHub Profile</title>
+  <desc id="desc">A clean white profile header with a playful blue title and green introduction.</desc>
 
-  <defs>
-    <pattern id="stars" width="72" height="54" patternUnits="userSpaceOnUse">
-      <rect width="72" height="54" fill="#05004f"/>
-      <rect x="9" y="10" width="3" height="3" fill="#fff"/>
-      <rect x="43" y="31" width="2" height="2" fill="#00ffff"/>
-      <rect x="64" y="7" width="2" height="2" fill="#ff69d4"/>
-      <rect x="25" y="46" width="2" height="2" fill="#fff36a"/>
-    </pattern>
-  </defs>
+  <rect width="1200" height="300" fill="#ffffff"/>
 
-  <rect width="1200" height="220" fill="url(#stars)"/>
-  <rect x="8" y="8" width="1184" height="204" fill="none" stroke="#00ffff" stroke-width="4"/>
-  <rect x="16" y="16" width="1168" height="188" fill="none" stroke="#ff48c4" stroke-width="2" stroke-dasharray="12 8"/>
-
-  <g font-family="monospace" font-weight="700" text-anchor="middle">
-    <text x="606" y="88" font-size="64" fill="#ff48c4">WELCOME TO</text>
-    <text x="600" y="82" font-size="64" fill="#fff36a">WELCOME TO</text>
-    <text x="606" y="158" font-size="48" fill="#00ffff">EMPTY JING'S GITHUB</text>
-    <text x="600" y="152" font-size="48" fill="#ffffff">EMPTY JING'S GITHUB</text>
+  <g font-family="sans-serif" font-weight="900" text-anchor="middle">
+    <text x="607" y="139" font-size="72" fill="#0500a8">Welcome to my GitHub Profile</text>
+    <text x="600" y="128" font-size="72" fill="#31bdf4" stroke="#0039c8" stroke-width="2" paint-order="stroke fill">Welcome to my GitHub Profile</text>
   </g>
 
-  <g fill="#fff36a">
-    <path d="M83 83h8v-8h6v8h8v6h-8v8h-6v-8h-8z"/>
-    <path d="M1095 122h8v-8h6v8h8v6h-8v8h-6v-8h-8z"/>
-    <animate attributeName="opacity" values="1;.25;1" dur="1.2s" repeatCount="indefinite"/>
-  </g>
-  <g fill="#00ffff">
-    <path d="M155 154h6v-6h4v6h6v4h-6v6h-4v-6h-6z"/>
-    <path d="M1032 64h6v-6h4v6h6v4h-6v6h-4v-6h-6z"/>
-  </g>
+  <text x="600" y="238" text-anchor="middle" fill="#24c934" font-family="'Comic Sans MS', 'Comic Sans', Chalkboard, cursive, sans-serif" font-size="39" font-weight="700">My name is Empty Jing and I like Python.</text>
 </svg>
